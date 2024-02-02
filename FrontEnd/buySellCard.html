@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buy and Sell Options</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: url('your-background-image.jpg') center/cover no-repeat fixed;
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card {
+      width: 300px;
+      border: none;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .buy-card {
+      background-color: #4CAF50;
+      color: #fff;
+    }
+
+    .sell-card {
+      background-color: #FF5733;
+      color: #fff;
+    }
+
+    .card-body {
+      padding: 20px;
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card buy-card">
+    <div class="card-body">
+      <h2 class="card-title">Buy</h2>
+      <p class="card-text">Explore buying options</p>
+      <a href="#" class="btn btn-light">Go to Buy</a>
+    </div>
+  </div>
+
+  <div class="card sell-card">
+    <div class="card-body">
+      <h2 class="card-title">Sell</h2>
+      <p class="card-text">Explore selling options</p>
+      <a href="#" class="btn btn-light">Go to Sell</a>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and Popper.js (required for Bootstrap) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
